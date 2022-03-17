@@ -167,7 +167,7 @@ function esPositivo(numero) {
   //}
   //else{
   //  return false;
-  }
+  //}
 }
 
 function agregarSimboloExclamacion(str) {

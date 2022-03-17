@@ -4,7 +4,7 @@
 const nuevaString = 'Porque';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 0006;
+const nuevoNum = 6;
 
 // Crea una variable booleana:
 const nuevoBool = false;
@@ -17,7 +17,6 @@ const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
-
 
 // En los próximos 22 problemas, deberás completar la función.
 // Todo tu código irá dentro de las llaves de la función.
@@ -211,8 +210,8 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  area = (base * altura)/2;
-  return area;
+  //area = (base * altura)/2;
+  //return area;
 }
 
 
@@ -220,8 +219,8 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  usd = euro * 1.2;
-  return usd;
+  //usd = euro * 1.2;
+  //return usd;
 }
 
 
@@ -231,13 +230,7 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  length = Math.length(letra);
-  if (length > 1) {
-    return 'Dato incorrecto';
-  } else{
-    return 'cero'    
-  }
-  }
+   }
 
 
 

@@ -93,7 +93,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return = x%y;
+  return  x % y;
   }
 
 function esPar(num) {
@@ -111,7 +111,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num%2 === 1){ 
+  if(num % 2 === 1){ 
     return true;
   }else{
     return false;
@@ -173,14 +173,15 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  console.log(str + '!');
+  return str + '!';
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  //console.log(nombre + apellido);
+  var combinado = nombre + ' ' + apellido; 
+  return combinado;
 }
 
 function obtenerSaludo(nombre) {
